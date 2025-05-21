@@ -1,0 +1,23 @@
+meta:
+    create_time: "2025-04-24T21:39:59.056Z"
+    created_by: pshankar@endor.ai@google
+    kind: ScanProfile
+    name: ai-security-review
+    update_time: "2025-04-24T21:40:06.622778338Z"
+    updated_by: pshankar@endor.ai@google
+    version: v1
+propagate: true
+spec:
+    automated_scan_parameters:
+        bazel_configuration:
+            bazel_show_internal_targets: false
+        disable_code_snippet_storage: false
+        enable_automated_pr_scans: true
+        enable_pr_comments: true
+        enable_remediation_action: false
+        security_review_scanner_parameters: true
+tenant_meta:
+    namespace: yolo
+uuid: 680aafaf5ad17ed19ba707e7
+
+
