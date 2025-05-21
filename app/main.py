@@ -11,6 +11,3 @@ def get_admin_data():
 if __name__ == "__main__":
     user = input("Enter your name: ")
     print(greet_user(user))
-
-    # Start the Flask app
-app.run(debug=True)
