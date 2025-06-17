@@ -28,4 +28,3 @@ resource "aws_iam_role_policy" "insecure_policy" {
       }
     ]
   })
-}
